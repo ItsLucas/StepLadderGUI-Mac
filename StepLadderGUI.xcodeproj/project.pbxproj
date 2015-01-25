@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A055ED2F1A7369D00063D651 /* start.sh in Resources */ = {isa = PBXBuildFile; fileRef = A055ED2E1A7369D00063D651 /* start.sh */; };
+		A0BFD6551A7343EA00602FB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BFD6541A7343EA00602FB8 /* AppDelegate.m */; };
+		A0BFD6571A7343EA00602FB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BFD6561A7343EA00602FB8 /* main.m */; };
+		A0BFD6591A7343EA00602FB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BFD6581A7343EA00602FB8 /* Images.xcassets */; };
+		A0BFD65C1A7343EA00602FB8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0BFD65A1A7343EA00602FB8 /* MainMenu.xib */; };
+		A0BFD6681A7343EA00602FB8 /* StepLadderGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BFD6671A7343EA00602FB8 /* StepLadderGUITests.m */; };
+		A0BFD6751A73448500602FB8 /* StepLadderGUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BFD6741A73448500602FB8 /* StepLadderGUI.m */; };
+		A0DBDAE91A734B22007ECFF2 /* client.ini in Resources */ = {isa = PBXBuildFile; fileRef = A0DBDAE71A734B22007ECFF2 /* client.ini */; };
+		A0DBDAEA1A734B22007ECFF2 /* client in Resources */ = {isa = PBXBuildFile; fileRef = A0DBDAE81A734B22007ECFF2 /* client */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0BFD6621A7343EA00602FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0BFD6461A7343EA00602FB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0BFD64D1A7343EA00602FB8;
+			remoteInfo = StepLadderGUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A055ED2E1A7369D00063D651 /* start.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = start.sh; sourceTree = "<group>"; };
+		A0BFD64E1A7343EA00602FB8 /* StepLadderGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepLadderGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BFD6521A7343EA00602FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BFD6531A7343EA00602FB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0BFD6541A7343EA00602FB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0BFD6561A7343EA00602FB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0BFD6581A7343EA00602FB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0BFD65B1A7343EA00602FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A0BFD6611A7343EA00602FB8 /* StepLadderGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepLadderGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BFD6661A7343EA00602FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BFD6671A7343EA00602FB8 /* StepLadderGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepLadderGUITests.m; sourceTree = "<group>"; };
+		A0BFD6731A73448500602FB8 /* StepLadderGUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepLadderGUI.h; sourceTree = "<group>"; };
+		A0BFD6741A73448500602FB8 /* StepLadderGUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepLadderGUI.m; sourceTree = "<group>"; };
+		A0DBDAE71A734B22007ECFF2 /* client.ini */ = {isa = PBXFileReference; lastKnownFileType = text; name = client.ini; path = StepLadderGUI/client.ini; sourceTree = "<group>"; };
+		A0DBDAE81A734B22007ECFF2 /* client */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = client; path = StepLadderGUI/client; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0BFD64B1A7343EA00602FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BFD65E1A7343EA00602FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0BFD6451A7343EA00602FB8 = {
+			isa = PBXGroup;
+			children = (
+				A0DBDAE71A734B22007ECFF2 /* client.ini */,
+				A055ED2E1A7369D00063D651 /* start.sh */,
+				A0DBDAE81A734B22007ECFF2 /* client */,
+				A0BFD6501A7343EA00602FB8 /* StepLadderGUI */,
+				A0BFD6641A7343EA00602FB8 /* StepLadderGUITests */,
+				A0BFD64F1A7343EA00602FB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0BFD64F1A7343EA00602FB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFD64E1A7343EA00602FB8 /* StepLadderGUI.app */,
+				A0BFD6611A7343EA00602FB8 /* StepLadderGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0BFD6501A7343EA00602FB8 /* StepLadderGUI */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFD6531A7343EA00602FB8 /* AppDelegate.h */,
+				A0BFD6541A7343EA00602FB8 /* AppDelegate.m */,
+				A0BFD6581A7343EA00602FB8 /* Images.xcassets */,
+				A0BFD65A1A7343EA00602FB8 /* MainMenu.xib */,
+				A0BFD6511A7343EA00602FB8 /* Supporting Files */,
+				A0BFD6731A73448500602FB8 /* StepLadderGUI.h */,
+				A0BFD6741A73448500602FB8 /* StepLadderGUI.m */,
+			);
+			path = StepLadderGUI;
+			sourceTree = "<group>";
+		};
+		A0BFD6511A7343EA00602FB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFD6521A7343EA00602FB8 /* Info.plist */,
+				A0BFD6561A7343EA00602FB8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0BFD6641A7343EA00602FB8 /* StepLadderGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFD6671A7343EA00602FB8 /* StepLadderGUITests.m */,
+				A0BFD6651A7343EA00602FB8 /* Supporting Files */,
+			);
+			path = StepLadderGUITests;
+			sourceTree = "<group>";
+		};
+		A0BFD6651A7343EA00602FB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFD6661A7343EA00602FB8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0BFD64D1A7343EA00602FB8 /* StepLadderGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0BFD66B1A7343EA00602FB8 /* Build configuration list for PBXNativeTarget "StepLadderGUI" */;
+			buildPhases = (
+				A0BFD64A1A7343EA00602FB8 /* Sources */,
+				A0BFD64B1A7343EA00602FB8 /* Frameworks */,
+				A0BFD64C1A7343EA00602FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StepLadderGUI;
+			productName = StepLadderGUI;
+			productReference = A0BFD64E1A7343EA00602FB8 /* StepLadderGUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0BFD6601A7343EA00602FB8 /* StepLadderGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0BFD66E1A7343EA00602FB8 /* Build configuration list for PBXNativeTarget "StepLadderGUITests" */;
+			buildPhases = (
+				A0BFD65D1A7343EA00602FB8 /* Sources */,
+				A0BFD65E1A7343EA00602FB8 /* Frameworks */,
+				A0BFD65F1A7343EA00602FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0BFD6631A7343EA00602FB8 /* PBXTargetDependency */,
+			);
+			name = StepLadderGUITests;
+			productName = StepLadderGUITests;
+			productReference = A0BFD6611A7343EA00602FB8 /* StepLadderGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0BFD6461A7343EA00602FB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = LucasWorkShop;
+				TargetAttributes = {
+					A0BFD64D1A7343EA00602FB8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A0BFD6601A7343EA00602FB8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A0BFD64D1A7343EA00602FB8;
+					};
+				};
+			};
+			buildConfigurationList = A0BFD6491A7343EA00602FB8 /* Build configuration list for PBXProject "StepLadderGUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0BFD6451A7343EA00602FB8;
+			productRefGroup = A0BFD64F1A7343EA00602FB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0BFD64D1A7343EA00602FB8 /* StepLadderGUI */,
+				A0BFD6601A7343EA00602FB8 /* StepLadderGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0BFD64C1A7343EA00602FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A055ED2F1A7369D00063D651 /* start.sh in Resources */,
+				A0DBDAE91A734B22007ECFF2 /* client.ini in Resources */,
+				A0DBDAEA1A734B22007ECFF2 /* client in Resources */,
+				A0BFD6591A7343EA00602FB8 /* Images.xcassets in Resources */,
+				A0BFD65C1A7343EA00602FB8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BFD65F1A7343EA00602FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0BFD64A1A7343EA00602FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BFD6571A7343EA00602FB8 /* main.m in Sources */,
+				A0BFD6551A7343EA00602FB8 /* AppDelegate.m in Sources */,
+				A0BFD6751A73448500602FB8 /* StepLadderGUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BFD65D1A7343EA00602FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BFD6681A7343EA00602FB8 /* StepLadderGUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0BFD6631A7343EA00602FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0BFD64D1A7343EA00602FB8 /* StepLadderGUI */;
+			targetProxy = A0BFD6621A7343EA00602FB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0BFD65A1A7343EA00602FB8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0BFD65B1A7343EA00602FB8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0BFD6691A7343EA00602FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0BFD66A1A7343EA00602FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A0BFD66C1A7343EA00602FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StepLadderGUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0BFD66D1A7343EA00602FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StepLadderGUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0BFD66F1A7343EA00602FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StepLadderGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepLadderGUI.app/Contents/MacOS/StepLadderGUI";
+			};
+			name = Debug;
+		};
+		A0BFD6701A7343EA00602FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StepLadderGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepLadderGUI.app/Contents/MacOS/StepLadderGUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0BFD6491A7343EA00602FB8 /* Build configuration list for PBXProject "StepLadderGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BFD6691A7343EA00602FB8 /* Debug */,
+				A0BFD66A1A7343EA00602FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0BFD66B1A7343EA00602FB8 /* Build configuration list for PBXNativeTarget "StepLadderGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BFD66C1A7343EA00602FB8 /* Debug */,
+				A0BFD66D1A7343EA00602FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0BFD66E1A7343EA00602FB8 /* Build configuration list for PBXNativeTarget "StepLadderGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BFD66F1A7343EA00602FB8 /* Debug */,
+				A0BFD6701A7343EA00602FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0BFD6461A7343EA00602FB8 /* Project object */;
+}
