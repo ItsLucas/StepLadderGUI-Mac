@@ -11,6 +11,7 @@
 @interface StepLadderGUI : NSObject{
     NSTask *task;
     NSPipe *pipe;
+    NSString *resPath;
     IBOutlet NSTextView *outputConsole;
 }
 - (IBAction)startServer:(id)sender;

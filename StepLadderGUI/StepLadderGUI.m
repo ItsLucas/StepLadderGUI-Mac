@@ -18,6 +18,7 @@
     NSBundle *bundle = [NSBundle mainBundle];
     NSMutableString *s = [NSMutableString stringWithString:[bundle resourcePath]];
     NSMutableString *wp = [NSMutableString stringWithString:[bundle resourcePath]];
+    resPath = wp;
     NSMutableString *append = [NSMutableString stringWithString:@"/client"];
     [s appendString:append];
     NSLog(s);
@@ -37,7 +38,10 @@
 }
 - (IBAction)editConfig:(id)sender //W.I.P. Who can finish it?
 {
-    [[NSWorkspace sharedWorkspace] openFile:@"./client.ini" withApplication:@"TextEdit"];
+    NSMutableString *configPath = [NSMutableString stringWithString:resPath];
+    NSMutableString *append2 = [NSMutableString stringWithString:@"/client.ini"];
+    [configPath appendString:append2];
+    [[NSWorkspace sharedWorkspace] openFile:configPath withApplication:@"TextEdit"];
 }
 - (void)runCommand:(NSString *)cmdname:(NSString *)workPath:(NSArray*)args{
     task = [[NSTask alloc]init];

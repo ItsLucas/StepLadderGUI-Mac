@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9650E4C0-8905-483D-8318-C78BA94EE36A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StepLadderGUI</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>382AABDDB08091D1C1BF7A03EC9792BF73DF8579</key>
+		<string>https://github.com/lucasredsn0w/StepLadderGUI-Mac.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StepLadderGUI.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>382AABDDB08091D1C1BF7A03EC9792BF73DF8579</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lucasredsn0w/StepLadderGUI-Mac.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>382AABDDB08091D1C1BF7A03EC9792BF73DF8579</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>382AABDDB08091D1C1BF7A03EC9792BF73DF8579</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StepLadderGUI-Mac</string>
+		</dict>
+	</array>
+</dict>
+</plist>
